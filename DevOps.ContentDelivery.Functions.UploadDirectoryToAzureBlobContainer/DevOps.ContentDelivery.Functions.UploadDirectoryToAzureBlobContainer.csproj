@@ -10,11 +10,11 @@
     <Description>Helper for uploading a directory of files and folders to an Azure Storage blob container</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>CDorst.DevOps.ContentDelivery.Functions.UploadDirectoryToAzureBlobContainer</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CDorst.Common.Functions.GetRelativePath" Version="1.0.0" />
+    <PackageReference Include="CDorst.Common.Functions.GetRelativePath" Version="1.0.1" />
     <PackageReference Include="CDorst.Common.Functions.ListFilesUnderDirectory" Version="1.0.0" />
     <PackageReference Include="CDorst.DevOps.ContentDelivery.Functions.GetOrCreateAzureBlobContainer" Version="1.0.2" />
     <PackageReference Include="CDorst.DevOps.ContentDelivery.Functions.UploadAzureBlob" Version="1.0.0" />
